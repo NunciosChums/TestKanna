@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>제목없는 지도</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>제목없는 레이어</name>
+			<Placemark>
+				<name>점 1</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>136.40625,35.6602715,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Katsuyama Hwy, Hanadani, Eiheiji-chō, Yoshida-gun, Fukui-ken 910-1215 일본에서 Katsuyama Hwy, Aradochō Shinbo, Katsuyama-shi, Fukui-ken 911-0043 일본까지 길찾기</name>
+			<Placemark>
+				<name>Katsuyama Hwy, Hanadani, Eiheiji-chō, Yoshida-gun, Fukui-ken 910-1215 일본에서 Katsuyama Hwy, Aradochō Shinbo, Katsuyama-shi, Fukui-ken 911-0043 일본까지 길찾기</name>
+				<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>136.34075,36.09079,0.0 136.34031,36.09092,0.0 136.3401,36.0902,0.0 136.34057,36.09008,0.0 136.34053,36.08989,0.0 136.34047,36.0897,0.0 136.34042,36.08959,0.0 136.34041,36.08954,0.0 136.34032,36.089180000000006,0.0 136.3403,36.08873,0.0 136.34027,36.08855,0.0 136.34044,36.08851,0.0 136.34107,36.08837,0.0 136.34153,36.08829,0.0 136.34186,36.08823,0.0 136.34207,36.08818,0.0 136.34319,36.088010000000004,0.0 136.34334,36.088010000000004,0.0 136.34366,36.08798,0.0 136.34406,36.08797,0.0 136.34450000000004,36.08791,0.0 136.34484,36.08787,0.0 136.34509,36.08782,0.0 136.34532,36.08779,0.0 136.34559,36.08775,0.0 136.34596,36.0877,0.0 136.34622,36.08769,0.0 136.34662,36.08769,0.0 136.34681,36.0877,0.0 136.34715,36.08773,0.0 136.34741,36.08774,0.0 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Katsuyama Hwy, Hanadani, Eiheiji-chō, Yoshida-gun, Fukui-ken 910-1215 일본</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>136.340746,36.0907883,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Katsuyama Hwy, Aradochō Shinbo, Katsuyama-shi, Fukui-ken 911-0043 일본</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>136.4847226,36.0755574,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-1267FF-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-1267FF-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-1267FF-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-1267FF-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
