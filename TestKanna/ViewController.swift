@@ -86,24 +86,26 @@ class ViewController: UIViewController {
     print("============ kml 3 =============")
     let data = NSFileManager.defaultManager().contentsAtPath(url)
     let xml = Kanna.XML(xml: data!, encoding: NSUTF8StringEncoding)
+
+    let namespaces = ["kml": "http://www.opengis.net/kml/2.2"]
     
-    for style1 in xml!.css("Style") {
-      let href = style1.css("href").text!
+    for style1 in xml!.css("kml|Style", namespaces: namespaces) {
+      let href = style1.css("kml|href", namespaces: namespaces).text!
       print("44 href=(\(href))")
     }
     
-    for style1 in xml!.css("style") {
-      let href = style1.css("href").text!
+    for style1 in xml!.css("kml|style", namespaces: namespaces) {
+      let href = style1.css("kml|href", namespaces: namespaces).text!
       print("55 href=(\(href))")
     }
     
-    for style in xml!.css("Placemark") {
-      let href = style.css("styleUrl").text!
+    for style in xml!.css("kml|Placemark", namespaces: namespaces) {
+      let href = style.css("kml|styleUrl", namespaces: namespaces).text!
       print("66 styleUrl=(\(href))")
     }
     
-    for style in xml!.css("placemark") {
-      let href = style.css("styleurl").text!
+    for style in xml!.css("kml|placemark", namespaces: namespaces) {
+      let href = style.css("kml|styleurl", namespaces: namespaces).text!
       print("77 styleurl=(\(href))")
     }
   }
